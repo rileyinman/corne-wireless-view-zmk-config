@@ -41,10 +41,10 @@
             //                   |     |     | DEL |   |     |     |     |
             display-name = "Symbols";
             bindings = <
-                &trans  &kp EXCL  &kp AT    &kp HASH &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &kp BSLH
-                &trans  &kp N1    &kp N2    &kp N3   &kp N4   &kp N5    &kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &kp PIPE
-                &trans  &kp MINUS &kp UNDER &kp EQL  &kp PLUS &trans    &trans    &kp LBRC &kc LBKT &kc RBKT &kp RBRC &trans
-                                            &trans   &trans   &kp DEL   &trans    &trans   &trans
+                &trans  &kp EXCL  &kp AT    &kp HASH  &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &kp BSLH
+                &trans  &kp N1    &kp N2    &kp N3    &kp N4   &kp N5    &kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &kp PIPE
+                &trans  &kp MINUS &kp UNDER &kp EQUAL &kp PLUS &trans    &trans    &kp LBRC &kp LBKT &kp RBKT &kp RBRC &trans
+                                            &trans    &trans   &kp DEL   &trans    &trans   &trans
             >;
         };
 
@@ -68,13 +68,13 @@
             // | VOL- | VOL+| MUTE|     |      |      |   |     |     |     |     |     |       |
             // | F1   | F2  | F3  | F4  | F5   | F6   |   | BT1 | BT2 | BT3 | BT4 | BT5 | BTCLR |
             // | F7   | F8  | F9  | F10 | F11  | F12  |   |     |     |     |     |     |       |
-            //                    |     |      |      |   | PRSC|     |     |
+            //                    |     |      |      |   |PSCRN|     |     |
             display-name = "Setting";
             bindings = <
-                &kp VOLD &kp VOLU &kp K_MUTE &trans  &trans   &trans   &trans       &trans       &trans        &trans        &trans       &trans
-                &kp F1   &kp F2   &kp F3     &kp F4  &kp F5   &kp F6   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_CLR
-                &kp F7   &kp F8   &kp F9     &kp F10 &kp F11  &kp F12  &trans       &trans       &trans &trans &kp trans   &trans
-                                             &trans  &trans   &trans   &kp PRSC     &trans       &trans
+                &kp K_VOL_DN &kp K_VOL_UP &kp K_MUTE &trans  &trans   &trans   &trans       &trans       &trans        &trans        &trans       &trans
+                &kp F1       &kp F2       &kp F3     &kp F4  &kp F5   &kp F6   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_CLR
+                &kp F7       &kp F8       &kp F9     &kp F10 &kp F11  &kp F12  &trans       &trans       &trans        &trans        &trans       &trans
+                                                     &trans  &trans   &trans   &kp PSCRN    &trans       &trans
             >;
         };
 
